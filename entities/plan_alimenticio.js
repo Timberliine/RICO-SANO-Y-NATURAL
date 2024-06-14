@@ -44,7 +44,7 @@ obtenerTotalComidaPorTipo(tipo){
 
 esFuerteEnProteinas(){
     const comidaAC= this.comidas.filter(comida => comida.tipo==="AC");
-    const promedioProteina= comidaAC.forEach( ac => ac. + comida.proteina)/comidaAC.length;
+    const promedioProteina= comidaAC.forEach( ac => ac.comida.proteina)/comidaAC.length;
     return promedioProteina>=50
 }
 }

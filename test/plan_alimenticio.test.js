@@ -15,3 +15,8 @@ test("Crear un plan alimenticio correctamente", () =>{
     expect(plan_alimenticio.obtenerTotalComidaPorTipo("DM")).toBe(2);
 
 })
+
+// npm init
+//npm install jest
+//npm test
+//
